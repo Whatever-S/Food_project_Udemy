@@ -13,7 +13,7 @@ window.addEventListener('DOMContentLoaded', () =>{
 
     tabs('.tabheader__item', '.tabcontent', '.tabheader__items', 'tabheader__item_active');
     modal('[data-modal]', '.modal', modalTimerId);
-    timer('.timer', Date.parse('2022-10-20'));
+    timer('.timer', Date.parse('2023-10-20'));
     cards();
     culc();
     slider({
